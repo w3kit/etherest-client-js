@@ -1,0 +1,11 @@
+{
+  "plugins": [
+  	"transform-object-assign",
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": false,
+      "moduleName": "babel-runtime"
+    }]
+  ]
+}
